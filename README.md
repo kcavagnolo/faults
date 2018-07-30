@@ -20,9 +20,9 @@ To access an IDE, one needs to [setup the server][jupyter] first. Then
 configure the environment:
 
 ```bash
-$ sudo pip3 install jupyter_contrib_nbextensions
+$ sudo pip install jupyter_contrib_nbextensions
 $ sudo jupyter contrib nbextension install
-$ sudo -H pip3 install jupyterthemes
+$ sudo -H pip install jupyterthemes
 $ jt --theme grade3 -fs 9 -nfs 11 -tfs 11 -cellw 90% -T
 ```
 
@@ -31,7 +31,7 @@ $ jt --theme grade3 -fs 9 -nfs 11 -tfs 11 -cellw 90% -T
 For this notebook, library dependencies are short, so no requirements file:
 
 ```bash
-$ sudo pip3 install --upgrade numpy pandas scipy featuretools xgboost seaborn
+$ sudo pip install --upgrade numpy pandas scipy featuretools xgboost seaborn scikit-learn tables
 ```			      
 
 [instance]:https://aws.amazon.com/ec2/instance-types/
