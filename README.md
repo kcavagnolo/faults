@@ -31,7 +31,7 @@ $ jt --theme grade3 -fs 9 -nfs 11 -tfs 11 -cellw 90% -T
 For this notebook, library dependencies are short, so no requirements file:
 
 ```bash
-$ pip install --upgrade numpy pandas scipy featuretools xgboost seaborn scikit-learn tables pyarrow
+$ pip install --upgrade numpy pandas scipy featuretools xgboost seaborn scikit-learn tables pyarrow h2o
 ```			      
 
 [instance]:https://aws.amazon.com/ec2/instance-types/
