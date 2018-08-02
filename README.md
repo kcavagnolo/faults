@@ -1,3 +1,5 @@
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 # Setup EC2
 
 Create instance via `awscli` or console. [P2 instances][instance]
@@ -31,7 +33,7 @@ $ jt --theme grade3 -fs 9 -nfs 11 -tfs 11 -cellw 90% -T
 For this notebook, library dependencies are short, so no requirements file:
 
 ```bash
-$ pip install --upgrade numpy pandas scipy featuretools xgboost seaborn scikit-learn tables pyarrow
+$ pip install --upgrade numpy pandas scipy featuretools xgboost seaborn scikit-learn tables pyarrow h2o
 ```			      
 
 # Setup GH Connection
