@@ -34,6 +34,18 @@ For this notebook, library dependencies are short, so no requirements file:
 $ pip install --upgrade numpy pandas scipy featuretools xgboost seaborn scikit-learn tables pyarrow
 ```			      
 
+# Setup GH Connection
+
+Create keys and add them:
+```bash
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+$ ssh-add -K ~/.ssh/id_rsa
+$ eval "$(ssh-agent -s)"
+```
+
+Got to [GH key settings][keys] and add.
+
 [instance]:https://aws.amazon.com/ec2/instance-types/
 [dlami]:https://aws.amazon.com/machine-learning/amis/
 [jupyter]:https://docs.aws.amazon.com/dlami/latest/devguide/setup-jupyter-configure-server.html
+[keys]:https://github.com/settings/keys
